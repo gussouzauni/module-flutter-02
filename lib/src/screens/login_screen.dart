@@ -33,3 +33,13 @@ Widget emailfield() {
     ),
   );
 }
+
+Widget passwordfield() {
+  return TextFormField(
+    obscureText: true,
+    decoration: InputDecoration(
+      labelText: 'Password',
+      hintText: 'Password',
+    ),
+  )
+}
