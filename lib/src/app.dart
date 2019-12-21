@@ -7,7 +7,7 @@ class App extends StatelessWidget {
       title: 'Log me In!',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Build a textformfield'),
+          title: Text('Building a textformfield'),
           backgroundColor: Colors.amber,
         ),
         body: LoginScreen(),
